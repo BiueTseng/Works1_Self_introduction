@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<!--用來標註網頁的語系，讓瀏覽器能更正確的解析與編碼 lang="en"為英語語系 -->
+<html lang="zh-Hant-TW"> <!-- 台灣使用的繁體中文-->
+    <head>
+        <!-- meta標籤作用提供目前網頁的相關資訊給瀏覽器或存取網頁的服務使用，
+            例如: name="viewpoint" 為適用的螢幕解析度
+                  name="descript" 網頁內容描述...等等。還有很多給爬蟲、社群媒體等使用的設定。
+                meta 標籤沒有結尾，可直接把參數寫在 meta內，一個網頁可以寫多個meta標籤，但要全部寫在head標籤內才會生效。 -->
+        
+        <!--設定網頁編碼-->
+        <meta charset="utf-8" />
+        <!--設定螢幕解析度-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!--頁面的短描述(最多150個字)，在搜尋引擎下，content會做為顯示搜索結果的簡短文字-->
+        <meta name="description" content="曾建翔的個人履歷" />
+        <!--放上出版者的資訊-->
+        <meta name="author" content="Biue Tseng" />
+        <title>Biue Tseng resume</title>
+
+        <!-- 不需要提供link 設定，只要將 .icon檔放在網站根目錄就可-->
+        <link rel="icon" type="image/x-icon" href="assets/img/triangle.svg" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <!--所有的 html 標籤都可以父帶指定id 的屬性，id必須唯一，命名法則為 第一個字元為英文不可為符號、冒號、小數、底線、數字-->
+    <body id="page-top">
+
+
+        <!--導覽(nav: Navigation) 標示此網頁的主要導覽連結，意即網頁最上面的主菜單(menu)-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top" >
+                <span class="d-block d-lg-none "><ion-icon name="bar-chart-outline" size="32px"></ion-icon>&nbsp;曾建翔的個人履歷</span>
+                <span class="d-none d-lg-block" ><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/selfpic4.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"><ion-icon name="finger-print-outline"></ion-icon> 關於我</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education"><ion-icon name="school-outline"></ion-icon> 學歷</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience"><ion-icon name="person-outline"></ion-icon> 工作經歷</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills"><ion-icon name="desktop-outline"></ion-icon> 工作技能</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#works"><ion-icon name="file-tray-full-outline"></ion-icon> 作品集</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0 text-center" id="self-resume">
+                        曾建翔
+                        <span class="text-secondary">Biue Tseng</span>
+                    </h1>
+                    <div class="subheading text-center mb-5">
+                       &emsp; TEL : 0973-821-776  ·
+                        <a href="mailto:biuefh311@gmail.com" class="text-success">email :  biuefh311@gmail.com</a>
+                    </div>
+                    <h3 class="mb-4 "><ion-icon name="finger-print-outline"></ion-icon> &ensp;關於我</h3></span> 
+
+                    <p class="lead mb-5">我是曾建翔，來自夢想發大財的城市:高雄，大學就讀實踐大學資訊管理系，畢業後服1年兵
+                        役，由於大學畢業專題研究時，對資料分析的統計方法產生濃厚興趣，便退伍後花兩年的時間考取中正大學統計科學研究所。
+                        雖本身喜歡探討問題的本質，但研究所論文製作時對軟體工具的輔助作業，驚奇地發現電腦可以相對消耗較少時間做極多事情，因此發覺自己對程式語言的興趣，期望自己能夠多加學習軟體於言工具。
+                        </p>
+                    <!--載入圖片且並排-->
+                        <div class="container mb-4">
+                        <!-- width: 33.333333%; height:auto; display: inline-block; margin-left:-4px; -->
+                            <img src="assets/img/日本金閣寺.jpg" id="img0" class="rounded float-none ms-4 me-4 mt-2" width="280" height="300">
+                            <img src="assets/img/中正圖書館.jpg" id="img1" class="rounded float-none ms-4 me-4 mt-2" width="280" height="300">
+                            <img src="assets/img/蘭嶼行.jpg" id="img2" class="rounded float-none ms-4 me-4 mt-2" width="280" height="300">
+                        </div>
+
+                    
+                    <div class="social-icons ms-5">
+                        <a class="social-icon" href="https://www.linkedin.com/in/hsiang-tseng-chien-149b6a1b4"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://www.facebook.com/tseng.chienshiang"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5"><ion-icon name="school-outline"></ion-icon> &ensp; 學歷</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">中正大學</h3>
+                            <div class="subheading fs-6 mb-3">&ensp;數學系統計科學研究所 · 畢業</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-success">2018 9月 - 2020 6月 </span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">實踐大學</h3>
+                            <div class="subheading fs-6 mb-3">&ensp;資訊管理系 · 畢業</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-success">2011 9月 - 2015 6月 </span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+           <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5"><ion-icon name="person-outline"></ion-icon> &ensp; 工作經歷</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">群創光電股份有限公司</h3>
+                            <div class="subheading fs-5 mb-3"> &ensp; 製造品質整合工程師</div>
+                                <ul class="list-group list-group-numbered">
+                                    <li >建立最適規格:
+                                        
+                                        1-1. 蒐集以及制定產品出貨品質規格
+                                        1-2 新產品開發階段評估規格合理性</li>
+                                    <li >品質指標即時監控與改善推進: 
+                                        2-1生產品質資料報表蒐集與分析 (
+                                        2-2製作相關報告於中央型會議呈報</li>
+                                    <li >協助公司內部數位轉型專案進行</li>
+                                </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-success">2020 10月 - 2022 9月</span></div>
+                    </div>
+
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+            <!-- 工作技能-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5"><ion-icon name="desktop-outline"></ion-icon> &ensp;工作技能</h2>
+                    <ul class="dev-icons">
+                        <div class="fs-3">
+                        <li class="mb-2">視窗設計:<img src="assets/img/qt.svg"></li>
+                        <li class="mb-2">資料庫應用:&nbsp;<img src="assets/img/mysql.svg" width="100" height="100"></li>
+                        <li class="mb-5">資料分析與應用:&nbsp;<img src="assets/img/r.svg" width="42" height="42"></li>
+                        <li class="mb-4">網頁設計:&nbsp;
+                            <img src="assets/img/html.svg" width="32" heught="32">
+                            <img src="assets/img/javascript.svg" width="42" height="42">
+                            <img src="assets/img/css-3.svg" width="42" height="42">&ensp; IDE: <img src="assets/img/VS code.svg" weight="42" height="42"> </li>
+                        <li class="mb-5">影像辨識與爬蟲應用:&ensp;<img src="assets/img/python.svg" width="70" height="70">&ensp;IDE: <img src="assets/img/pycharm.svg" weight="42" height="42"></li>
+                        </div>
+                    </ul>
+
+                    <!--
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        </ul>
+                    <div class="subheading mb-3">Workflow</div>
+
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobile-First, Responsive Design
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Browser Testing & Debugging
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                    -->
+                </div>
+            </section>
+            <hr class="m-0"/>
+
+
+            <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+            
+            <!-- Works-->
+            <section class="resume-section" id="works">
+                <div class="resume-section-content">
+                    <h2 class="mb-5"><ion-icon name="file-tray-full-outline"></ion-icon> &ensp;作品集</h2>
+                    <div class="fs-3">
+                        <ul class="mb-0">
+                            <li class="mb-5">
+                                <a href="#self-resume">曾建翔的個人履歷</a>
+                            </li>
+                            <li class="mt-5">
+                                小樂透遊戲
+                                <button type="button" id="btn0" class="btn btn-success">顯示範例圖片</button>
+                                <button type="button" id="btn1" class="btn btn-warning">隱藏範例圖片</button>
+                                <p><img src="assets/img/minilotto.JPG" id="img3" style="display: none ;" width="550" height="600"></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <script>
+                    $(function(){
+                        $('#btn0').click(function(){
+                            $('#img3').fadeIn('fast');
+                        })
+                        $('#btn1').click(function(){
+                         $('#img3').hide('slow');
+                        })
+                    });
+                    </script>
+                    <!--
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Google Analytics Certified Developer
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Mobile Web Specialist - Google Certification
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2
+                            <sup>nd</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - James Buchanan High School - Hackathon 2006
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            3
+                            <sup>rd</sup>
+                            Place - James Buchanan High School - Hackathon 2005
+                        </li>
+                    </ul>
+                    -->
+                </div>
+            </section>
+        </div>
+
+        <!-- 設定 icon core JS-->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
